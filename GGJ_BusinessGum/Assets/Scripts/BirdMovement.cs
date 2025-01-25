@@ -44,5 +44,9 @@ public class BirdMovement : MonoBehaviour
                 transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, 1f);
             }
         }
+        else if(collision.gameObject.tag == "Bird")
+        {
+            Physics2D.IgnoreCollision(collision.gameObject.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+        }
     }
 }

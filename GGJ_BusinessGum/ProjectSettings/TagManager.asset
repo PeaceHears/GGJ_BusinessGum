@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Skyscraper
+  - Bird
   layers:
   - Default
   - TransparentFX
