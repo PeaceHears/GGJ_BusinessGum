@@ -13,7 +13,6 @@ public class CharacterMovement : MonoBehaviour
 
     void Start()
     {
-        velocity = new Vector2(horizontalSpeed, verticalSpeed);
         characterBody = GetComponent<Rigidbody2D>();
     }
 
@@ -28,8 +27,8 @@ public class CharacterMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        inputMovement.x *= velocity.x;
-        inputMovement.y *= velocity.y;
+        inputMovement.x *= horizontalSpeed;
+        inputMovement.y *= verticalSpeed;
 
         Vector2 delta = inputMovement * Time.fixedDeltaTime;
         Vector2 newPosition = characterBody.position + delta;

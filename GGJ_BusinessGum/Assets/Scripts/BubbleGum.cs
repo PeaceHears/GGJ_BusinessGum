@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class BubbleGum : MonoBehaviour
 {
+    public GameObject character;
+
     private Vector2 scale;
     private float scaleFactor = 0.1f;
     private int growthSpeed = 2;
@@ -15,7 +17,7 @@ public class BubbleGum : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.UpArrow))
+        if(Input.GetKeyDown(KeyCode.W))
         {
             if (scale.x > 3.0f)
             {
@@ -24,8 +26,10 @@ public class BubbleGum : MonoBehaviour
 
             scale.x += scaleFactor;
             scale.y += scaleFactor;
+
+            character.GetComponent<CharacterMovement>().verticalSpeed += 1;
         }
-        else if (Input.GetKeyDown(KeyCode.DownArrow))
+        else if (Input.GetKeyDown(KeyCode.S))
         {
             if(scale.x < 0.5f)
             {
@@ -34,6 +38,8 @@ public class BubbleGum : MonoBehaviour
 
             scale.x -= scaleFactor;
             scale.y -= scaleFactor;
+
+            character.GetComponent<CharacterMovement>().verticalSpeed -= 1;
         }
     }
 
