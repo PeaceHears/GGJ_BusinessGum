@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class BusinessGuyMovement : MonoBehaviour
 {
+    public GameObject character;
+
     public int horizontalSpeed = 10;
     public int verticalSpeed = 2;
 
-    private Rigidbody2D characterBody;
+    private Rigidbody2D rigidBody;
     private Vector2 inputMovement;
 
     void Start()
     {
-        characterBody = GetComponent<Rigidbody2D>();
+        rigidBody = GetComponent<Rigidbody2D>();
     }
 
     void Update()
@@ -26,7 +28,7 @@ public class BusinessGuyMovement : MonoBehaviour
         inputMovement.y *= verticalSpeed;
 
         Vector2 delta = inputMovement * Time.fixedDeltaTime;
-        Vector2 newPosition = characterBody.position + delta;
-        characterBody.MovePosition(newPosition);
+        Vector2 newPosition = rigidBody.position + delta;
+        rigidBody.MovePosition(newPosition);
     }
 }

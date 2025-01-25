@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BubbleGum : MonoBehaviour
 {
-    public GameObject character;
+    public GameObject businessGuy;
 
     private Vector2 scale;
     private float scaleFactor = 0.1f;
@@ -19,7 +19,7 @@ public class BubbleGum : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.W))
         {
-            if (scale.x > 3.0f)
+            if (scale.x > 1.5f)
             {
                 return;
             }
@@ -27,7 +27,7 @@ public class BubbleGum : MonoBehaviour
             scale.x += scaleFactor;
             scale.y += scaleFactor;
 
-            character.GetComponent<BusinessGuyMovement>().verticalSpeed += 1;
+            businessGuy.GetComponent<BusinessGuyMovement>().verticalSpeed += 1;
         }
         else if (Input.GetKeyDown(KeyCode.S))
         {
@@ -39,7 +39,7 @@ public class BubbleGum : MonoBehaviour
             scale.x -= scaleFactor;
             scale.y -= scaleFactor;
 
-            character.GetComponent<BusinessGuyMovement>().verticalSpeed -= 1;
+            businessGuy.GetComponent<BusinessGuyMovement>().verticalSpeed -= 1;
         }
     }
 
