@@ -1,0 +1,703 @@
+fileFormatVersion: 2
+guid: 84c1767639d7fc14ba5af76efc0b5edc
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: skyscraper_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5139.2
+        width: 773.8
+        height: 1284.8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118ce2a77c2c85446a0a4d288261fb9d
+      internalID: -1003733044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyscraper_1
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 5139.2
+        width: 773.8
+        height: 1284.8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f59ce734052ad41aa8fd4ae23b8aa9
+      internalID: 318881870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyscraper_2
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 5139.2
+        width: 773.8
+        height: 1284.8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7570bab71283a9844909f19c78d15554
+      internalID: -798606247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyscraper_3
+      rect:
+        serializedVersion: 2
+        x: 2319
+        y: 5139.2
+        width: 773.8
+        height: 1284.8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9589595a8eb8b4f8b6ea79ffd5613a
+      internalID: 313270358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyscraper_4
+      rect:
+        serializedVersion: 2
+        x: 3092
+        y: 5139.2
+        width: 773.8
+        height: 1284.8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8419e5e0f8cab1f45b12f5aca2a5cac5
+      internalID: 332530268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyscraper_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3855.2
+        width: 773.8
+        height: 1284.8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f925d4e08999c1c4b9986753126b896a
+      internalID: 703753893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyscraper_6
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 3855.2
+        width: 773.8
+        height: 1284.8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6ab2aff6813da48987248df50660a7
+      internalID: 664911099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyscraper_7
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 3855.2
+        width: 773.8
+        height: 1284.8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f945d478fa1eb4caba148ecc26b1b8
+      internalID: 1850882164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyscraper_8
+      rect:
+        serializedVersion: 2
+        x: 2319
+        y: 3855.2
+        width: 773.8
+        height: 1284.8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3ce762365305744ba44ab27f7da237
+      internalID: -855346376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyscraper_9
+      rect:
+        serializedVersion: 2
+        x: 3092
+        y: 3855.2
+        width: 773.8
+        height: 1284.8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f88754ada33e248b7de7d06827437b
+      internalID: 855715631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyscraper_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2571.2
+        width: 773.8
+        height: 1284.8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02bf288cfc87084fb86b5864dce8701
+      internalID: 1040424092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyscraper_11
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 2571.2
+        width: 773.8
+        height: 1284.8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3bc342f7569154891cc4650c786f63
+      internalID: 929433740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyscraper_12
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 2571.2
+        width: 773.8
+        height: 1284.8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc137412f513e674dac63588daf9e158
+      internalID: -308511910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyscraper_13
+      rect:
+        serializedVersion: 2
+        x: 2319
+        y: 2571.2
+        width: 773.8
+        height: 1284.8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98db277548483f34ca7b9183b805abd3
+      internalID: -1748556842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyscraper_14
+      rect:
+        serializedVersion: 2
+        x: 3092
+        y: 2571.2
+        width: 773.8
+        height: 1284.8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa852e3e909ef074eb77709af26b17f5
+      internalID: 1085064946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyscraper_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1287.2
+        width: 773.8
+        height: 1284.8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c401720e7bfe374d8a1ca952e1c61f7
+      internalID: 542141770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyscraper_16
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 1287.2
+        width: 773.8
+        height: 1284.8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e55eeaf48d19049a3b8c78b5b8e77f
+      internalID: 1376237512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyscraper_17
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 1287.2
+        width: 773.8
+        height: 1284.8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e543c072687e74ba08e53ec408ccb2
+      internalID: -1675278594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyscraper_18
+      rect:
+        serializedVersion: 2
+        x: 2319
+        y: 1287.2
+        width: 773.8
+        height: 1284.8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaeaebfdb2c04e240b22e70b57e64df3
+      internalID: 454373408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyscraper_19
+      rect:
+        serializedVersion: 2
+        x: 3092
+        y: 1287.2
+        width: 773.8
+        height: 1284.8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c9eb543bfacbd46bd015e165f87a0f
+      internalID: 1001406093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyscraper_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3.1999512
+        width: 773.8
+        height: 1284.8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d79843e106100c45abde7add1339c64
+      internalID: 154738633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyscraper_21
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 3.1999512
+        width: 773.8
+        height: 1284.8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489859596d6bd8346a603fe4bc36ec1f
+      internalID: 1304002919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyscraper_22
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 3.1999512
+        width: 773.8
+        height: 1284.8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293423317b27ab044a6b409086be8194
+      internalID: 1115412625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyscraper_23
+      rect:
+        serializedVersion: 2
+        x: 2319
+        y: 3.1999512
+        width: 773.8
+        height: 1284.8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a89240cd92bcc54eb485cb1e9f7b3f5
+      internalID: -1520106081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyscraper_24
+      rect:
+        serializedVersion: 2
+        x: 3092
+        y: 3.1999512
+        width: 773.8
+        height: 1284.8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954eb7983b8cb1746bb3b29bb1f534db
+      internalID: -1333565709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      skyscraper_0: -1003733044
+      skyscraper_1: 318881870
+      skyscraper_10: 1040424092
+      skyscraper_11: 929433740
+      skyscraper_12: -308511910
+      skyscraper_13: -1748556842
+      skyscraper_14: 1085064946
+      skyscraper_15: 542141770
+      skyscraper_16: 1376237512
+      skyscraper_17: -1675278594
+      skyscraper_18: 454373408
+      skyscraper_19: 1001406093
+      skyscraper_2: -798606247
+      skyscraper_20: 154738633
+      skyscraper_21: 1304002919
+      skyscraper_22: 1115412625
+      skyscraper_23: -1520106081
+      skyscraper_24: -1333565709
+      skyscraper_3: 313270358
+      skyscraper_4: 332530268
+      skyscraper_5: 703753893
+      skyscraper_6: 664911099
+      skyscraper_7: 1850882164
+      skyscraper_8: -855346376
+      skyscraper_9: 855715631
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
