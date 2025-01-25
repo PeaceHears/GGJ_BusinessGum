@@ -15,8 +15,12 @@ public class BirdMovement : MonoBehaviour
     {
         rigidBody = GetComponent<Rigidbody2D>();
 
+        float randomNumberForXPosition = Random.Range(-5.0f, 10.0f);
+        float randomNumberForYPosition = Random.Range(5.0f, 50.0f);
+
         velocity = new Vector2(flightSpeed, flightSpeed);
-        inputMovement = new Vector2(1, -0.5f);
+        inputMovement = new Vector2(1, -0.5f); //TODO: Maybe up movement too?
+        transform.position = new Vector2(randomNumberForXPosition, randomNumberForYPosition);
     }
 
     void FixedUpdate()

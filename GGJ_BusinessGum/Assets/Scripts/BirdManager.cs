@@ -28,11 +28,8 @@ public class BirdManager : MonoBehaviour
     {
         for (int i = 0; i < birdCount; i++)
         {
-            float randomNumberForXPosition = Random.Range(-5.0f, 10.0f);
-            float randomNumberForYPosition = Random.Range(5.0f, 50.0f);
-
-            Object pigeonPrefab = AssetDatabase.LoadAssetAtPath(prefabPath, typeof(GameObject));
-            GameObject clone = Instantiate(pigeonPrefab, new Vector2(randomNumberForXPosition, randomNumberForYPosition), Quaternion.identity) as GameObject;
+            Object prefab = AssetDatabase.LoadAssetAtPath(prefabPath, typeof(GameObject));
+            GameObject clone = Instantiate(prefab, Vector2.zero, Quaternion.identity) as GameObject;
         }
     }
 }

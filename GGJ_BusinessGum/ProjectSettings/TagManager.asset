@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Skyscraper
   - Bird
+  - PaperPlane
   layers:
   - Default
   - TransparentFX
