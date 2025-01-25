@@ -5,11 +5,20 @@ using UnityEngine;
 
 public class PaperPlaneManager : MonoBehaviour
 {
-    public int paperPlaneCount = 10;
+    public int paperPlaneCount = 2;
 
     void Start()
     {
-        CreatePaperPlanes();
+        StartCoroutine(PaperPlaneCreationTimer());
+    }
+
+    IEnumerator PaperPlaneCreationTimer()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(4);
+            CreatePaperPlanes();
+        }
     }
 
     void Update()

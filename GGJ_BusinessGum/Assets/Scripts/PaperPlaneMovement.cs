@@ -14,9 +14,12 @@ public class PaperPlaneMovement : MonoBehaviour
     void Start()
     {
         rigidBody = GetComponent<Rigidbody2D>();
+        GameObject businessGuy = GameObject.FindWithTag("BusinessGuy");
 
-        float randomNumberForXPosition = Random.Range(-9.9f, 10.5f);
-        float randomNumberForYPosition = Random.Range(10.0f, 50.0f);
+        int randomXPositionControl = Random.Range(0, 2);
+        float randomNumberForXPosition = randomXPositionControl == 0 ? - 9.9f : 10.5f;
+        float randomNumberForYPosition = Random.Range(businessGuy.transform.position.y + 10.0f, 
+            businessGuy.transform.position.y + 20.0f);
 
         velocity = new Vector2(flightSpeed, flightSpeed);
         inputMovement = new Vector2(-1, 0);
