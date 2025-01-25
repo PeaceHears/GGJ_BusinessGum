@@ -2,13 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CharacterMovement : MonoBehaviour
+public class BusinessGuyMovement : MonoBehaviour
 {
     public int horizontalSpeed = 10;
     public int verticalSpeed = 2;
 
     private Rigidbody2D characterBody;
-    private Vector2 velocity;
     private Vector2 inputMovement;
 
     void Start()
@@ -19,10 +18,6 @@ public class CharacterMovement : MonoBehaviour
     void Update()
     {
         inputMovement = new Vector2(Input.GetAxisRaw("Horizontal"), 1);
-
-        Vector2 newCameraPosition = characterBody.position;
-        newCameraPosition.y = characterBody.position.y;
-        characterBody.position = newCameraPosition;
     }
 
     private void FixedUpdate()

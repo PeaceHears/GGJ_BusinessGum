@@ -27,7 +27,7 @@ public class BubbleGum : MonoBehaviour
             scale.x += scaleFactor;
             scale.y += scaleFactor;
 
-            character.GetComponent<CharacterMovement>().verticalSpeed += 1;
+            character.GetComponent<BusinessGuyMovement>().verticalSpeed += 1;
         }
         else if (Input.GetKeyDown(KeyCode.S))
         {
@@ -39,7 +39,7 @@ public class BubbleGum : MonoBehaviour
             scale.x -= scaleFactor;
             scale.y -= scaleFactor;
 
-            character.GetComponent<CharacterMovement>().verticalSpeed -= 1;
+            character.GetComponent<BusinessGuyMovement>().verticalSpeed -= 1;
         }
     }
 
