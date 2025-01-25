@@ -27,7 +27,7 @@ public class BubbleGum : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.DownArrow))
         {
-            if(scale.x < 0.1f)
+            if(scale.x < 0.5f)
             {
                 return;
             }
