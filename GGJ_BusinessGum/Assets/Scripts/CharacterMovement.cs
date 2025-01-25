@@ -20,6 +20,10 @@ public class CharacterMovement : MonoBehaviour
     void Update()
     {
         inputMovement = new Vector2(Input.GetAxisRaw("Horizontal"), 1);
+
+        Vector2 newCameraPosition = characterBody.position;
+        newCameraPosition.y = characterBody.position.y;
+        characterBody.position = newCameraPosition;
     }
 
     private void FixedUpdate()
