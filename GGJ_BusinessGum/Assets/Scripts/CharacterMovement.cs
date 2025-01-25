@@ -4,25 +4,30 @@ using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
 {
-    public int speed = 10;
+    public int horizontalSpeed = 10;
+    public int verticalSpeed = 2;
+
     private Rigidbody2D characterBody;
     private Vector2 velocity;
     private Vector2 inputMovement;
 
     void Start()
     {
-        velocity = new Vector2(speed, speed);
+        velocity = new Vector2(horizontalSpeed, verticalSpeed);
         characterBody = GetComponent<Rigidbody2D>();
     }
 
     void Update()
     {
-        inputMovement = new Vector2(Input.GetAxisRaw("Horizontal"), 0);
+        inputMovement = new Vector2(Input.GetAxisRaw("Horizontal"), 1);
     }
 
     private void FixedUpdate()
     {
-        Vector2 delta = inputMovement * velocity * Time.fixedDeltaTime;
+        inputMovement.x *= velocity.x;
+        inputMovement.y *= velocity.y;
+
+        Vector2 delta = inputMovement * Time.fixedDeltaTime;
         Vector2 newPosition = characterBody.position + delta;
         characterBody.MovePosition(newPosition);
     }
