@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2e7d2bfd6995a98419f231b2ea637673
+guid: 62b3aeb97b47cbe4c9b05a280dfaf490
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,13 +136,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Seagull_50x75_0
+      name: Walk_Cycle_Sprite_Sheet_v1_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 50
-        width: 25
-        height: 25
+        y: 256
+        width: 108
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06c5e0e4e023a8645934ed2c8c39a15b
-      internalID: 1186164975
+      spriteID: 7fa29e4b476e9864285b9b3a2924e1c8
+      internalID: -1307552849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seagull_50x75_1
+      name: Walk_Cycle_Sprite_Sheet_v1_1
       rect:
         serializedVersion: 2
-        x: 25
-        y: 50
-        width: 25
-        height: 25
+        x: 108
+        y: 256
+        width: 108
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +171,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc75bd66540e5a546b4abd96077ddbfd
-      internalID: 1943501554
+      spriteID: 581012730114d3249bd5c685a1a8fa50
+      internalID: 1910975438
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seagull_50x75_2
+      name: Walk_Cycle_Sprite_Sheet_v1_2
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 256
+        width: 108
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8225a33d866584ab6c7e7d25d50cc9
+      internalID: 467090509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Cycle_Sprite_Sheet_v1_3
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 256
+        width: 108
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed47599822b96345bb4277b97ff3b84
+      internalID: -669321041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Cycle_Sprite_Sheet_v1_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 25
-        width: 25
-        height: 25
+        y: 128
+        width: 108
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,20 +234,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d878d78c6dfe6942846d62a9dd6778d
-      internalID: -679152593
+      spriteID: cfe69aca9f0fffe47b958fd27e4d28d5
+      internalID: -366825943
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seagull_50x75_3
+      name: Walk_Cycle_Sprite_Sheet_v1_5
       rect:
         serializedVersion: 2
-        x: 25
-        y: 25
-        width: 25
-        height: 25
+        x: 108
+        y: 128
+        width: 108
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,20 +255,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10592879826dd5b46aed684cd3c4ee01
-      internalID: 985037606
+      spriteID: 5982030deb1f0044c941b9ecbf35329e
+      internalID: -286471288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seagull_50x75_4
+      name: Walk_Cycle_Sprite_Sheet_v1_6
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 128
+        width: 108
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a450db190c130f45ba35edec2740706
+      internalID: -1250749904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Cycle_Sprite_Sheet_v1_7
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 128
+        width: 108
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0c3eb8f97beed41ad0877ebf97f8dd
+      internalID: 827966079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Cycle_Sprite_Sheet_v1_8
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 25
-        height: 25
+        width: 108
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,20 +318,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed84a548cdd93a240a96b92e885a63de
-      internalID: 2012201794
+      spriteID: d1134fdcada83e344b3d3b7cdfcfd036
+      internalID: -851103190
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Seagull_50x75_5
+      name: Walk_Cycle_Sprite_Sheet_v1_9
       rect:
         serializedVersion: 2
-        x: 25
+        x: 108
         y: 0
-        width: 25
-        height: 25
+        width: 108
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,8 +339,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19ddb807be9f36441a6d0881531547fb
-      internalID: -1347092442
+      spriteID: 2fa8189e5f0418843951b029207c1255
+      internalID: -1131907294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Cycle_Sprite_Sheet_v1_10
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 108
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5eb2b4079bd2740825573c4f4f479f
+      internalID: -56535780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Cycle_Sprite_Sheet_v1_11
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 108
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a1621f80f14dc4a871316900e2dc23
+      internalID: -667221148
       vertices: []
       indices: 
       edges: []
@@ -272,12 +398,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Seagull_50x75_0: 1186164975
-      Seagull_50x75_1: 1943501554
-      Seagull_50x75_2: -679152593
-      Seagull_50x75_3: 985037606
-      Seagull_50x75_4: 2012201794
-      Seagull_50x75_5: -1347092442
+      Walk_Cycle_Sprite_Sheet_v1_0: -1307552849
+      Walk_Cycle_Sprite_Sheet_v1_1: 1910975438
+      Walk_Cycle_Sprite_Sheet_v1_10: -56535780
+      Walk_Cycle_Sprite_Sheet_v1_11: -667221148
+      Walk_Cycle_Sprite_Sheet_v1_2: 467090509
+      Walk_Cycle_Sprite_Sheet_v1_3: -669321041
+      Walk_Cycle_Sprite_Sheet_v1_4: -366825943
+      Walk_Cycle_Sprite_Sheet_v1_5: -286471288
+      Walk_Cycle_Sprite_Sheet_v1_6: -1250749904
+      Walk_Cycle_Sprite_Sheet_v1_7: 827966079
+      Walk_Cycle_Sprite_Sheet_v1_8: -851103190
+      Walk_Cycle_Sprite_Sheet_v1_9: -1131907294
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
