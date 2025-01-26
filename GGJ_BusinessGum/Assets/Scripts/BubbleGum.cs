@@ -17,7 +17,7 @@ public class BubbleGum : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.W))
         {
             if (scale.x > 1.5f)
             {
@@ -31,7 +31,7 @@ public class BubbleGum : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.S))
         {
-            if(scale.x < 0.5f)
+            if (scale.x < 0.5f)
             {
                 return;
             }
@@ -57,5 +57,10 @@ public class BubbleGum : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Burst();
+    }
+
+    public void DestroyAfterBurst()
+    {
+        Destroy(gameObject);
     }
 }
