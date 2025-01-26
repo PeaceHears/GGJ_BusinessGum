@@ -68,7 +68,7 @@ public class BusinessGuyMovement : MonoBehaviour
     IEnumerator LoadGameOverScene()
     {
         yield return new WaitForSeconds(1);
-        SceneManager.LoadScene("MainMenuScene");
+        SceneManager.LoadScene("GameOverScene");
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
