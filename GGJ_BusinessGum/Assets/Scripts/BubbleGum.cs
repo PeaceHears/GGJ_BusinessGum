@@ -10,6 +10,7 @@ public class BubbleGum : MonoBehaviour
     private Vector2 scale;
     private float scaleFactor = 0.1f;
     private int growthSpeed = 2;
+    private bool isReachedToRoofTop = false;
 
     void Start()
     {
@@ -53,11 +54,21 @@ public class BubbleGum : MonoBehaviour
     {
         Animator animator = GetComponent<Animator>();
         animator.SetTrigger("Burst");
-        businessGuy.GetComponent<BusinessGuyMovement>().Death();
+
+        if(!isReachedToRoofTop)
+        {
+            businessGuy.GetComponent<BusinessGuyMovement>().Death();
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if (collision.gameObject.tag == "RoofTop")
+        {
+            isReachedToRoofTop = true;
+            businessGuy.GetComponent<BusinessGuyMovement>().BubbleGumTouchedToRoofTop();
+        }
+
         Burst();
     }
 

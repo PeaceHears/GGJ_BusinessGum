@@ -13,6 +13,7 @@ public class BusinessGuyMovement : MonoBehaviour
     private Rigidbody2D rigidBody;
     private Vector2 inputMovement;
     private bool isReachedToRoofTop = false;
+    private bool isBubbleGumReachedToRoofTop = false;
     private bool isDeath = false;
 
     void Start()
@@ -34,6 +35,7 @@ public class BusinessGuyMovement : MonoBehaviour
 
         if (isReachedToRoofTop)
         {
+            inputMovement.x = horizontalSpeed;
             inputMovement.y = 0;
         }
         else if(isDeath)
@@ -51,9 +53,9 @@ public class BusinessGuyMovement : MonoBehaviour
         rigidBody.MovePosition(newPosition);
     }
 
-    private void Walk()
+    private void Walk(float yPositionFactor)
     {
-        transform.position = new Vector2(transform.position.x, transform.position.y + 4.0f);
+        transform.position = new Vector2(transform.position.x, transform.position.y + yPositionFactor);
         animator.SetTrigger("Walk");
     }
 
@@ -73,10 +75,22 @@ public class BusinessGuyMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if(isBubbleGumReachedToRoofTop)
+        {
+            return;
+        }
+
         if (collision.gameObject.tag == "RoofTop")
         {
             isReachedToRoofTop = true;
-            Walk();
+            Walk(4.0f);
         }
+    }
+
+    public void BubbleGumTouchedToRoofTop()
+    {
+        isReachedToRoofTop = true;
+        isBubbleGumReachedToRoofTop = true;
+        Walk(8.0f);
     }
 }
