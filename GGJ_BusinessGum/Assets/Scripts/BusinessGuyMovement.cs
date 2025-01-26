@@ -57,6 +57,7 @@ public class BusinessGuyMovement : MonoBehaviour
     {
         transform.position = new Vector2(transform.position.x, transform.position.y + yPositionFactor);
         animator.SetTrigger("Walk");
+        StartCoroutine(LoadScene(2, "WinScene"));
     }
 
     public void Death()
@@ -64,13 +65,13 @@ public class BusinessGuyMovement : MonoBehaviour
         animator.SetTrigger("Death");
         isDeath = true;
 
-        StartCoroutine(LoadGameOverScene());
+        StartCoroutine(LoadScene(1, "GameOverScene"));
     }
 
-    IEnumerator LoadGameOverScene()
+    IEnumerator LoadScene(int interval, string sceneName)
     {
-        yield return new WaitForSeconds(1);
-        SceneManager.LoadScene("GameOverScene");
+        yield return new WaitForSeconds(interval);
+        SceneManager.LoadScene(sceneName);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
