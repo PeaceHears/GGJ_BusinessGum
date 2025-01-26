@@ -19,7 +19,7 @@ public class BubbleGum : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.W))
         {
             if (scale.x > 1.5f)
             {
@@ -31,7 +31,7 @@ public class BubbleGum : MonoBehaviour
 
             businessGuy.GetComponent<BusinessGuyMovement>().verticalSpeed += 1;
         }
-        else if (Input.GetKey(KeyCode.S))
+        else if (Input.GetKeyDown(KeyCode.S))
         {
             if (scale.x < 0.5f)
             {
