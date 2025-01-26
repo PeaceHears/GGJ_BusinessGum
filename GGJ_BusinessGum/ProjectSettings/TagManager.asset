@@ -9,6 +9,7 @@ TagManager:
   - PaperPlane
   - BusinessGuy
   - Ground
+  - RoofTop
   layers:
   - Default
   - TransparentFX
