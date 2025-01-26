@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BusinessGuyMovement : MonoBehaviour
 {
@@ -60,6 +61,14 @@ public class BusinessGuyMovement : MonoBehaviour
     {
         animator.SetTrigger("Death");
         isDeath = true;
+
+        StartCoroutine(LoadGameOverScene());
+    }
+
+    IEnumerator LoadGameOverScene()
+    {
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene("MainMenuScene");
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
