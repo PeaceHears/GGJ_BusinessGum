@@ -47,4 +47,15 @@ public class BubbleGum : MonoBehaviour
     {
         transform.localScale = Vector3.Lerp(transform.localScale, scale, growthSpeed * Time.deltaTime);
     }
+
+    private void Burst()
+    {
+        Animator animator = GetComponent<Animator>();
+        animator.SetTrigger("Burst");
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Burst();
+    }
 }
