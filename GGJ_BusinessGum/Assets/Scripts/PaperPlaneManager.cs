@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class PaperPlaneManager : MonoBehaviour
 {
+    public Object prefab;
+
     public int paperPlaneCount = 2;
 
     void Start()
@@ -35,7 +37,8 @@ public class PaperPlaneManager : MonoBehaviour
     {
         for (int i = 0; i < paperPlaneCount; i++)
         {
-            Object prefab = AssetDatabase.LoadAssetAtPath(prefabPath, typeof(GameObject));
+            //Object prefab = AssetDatabase.LoadAssetAtPath(prefabPath, typeof(GameObject));
+
             GameObject clone = Instantiate(prefab, Vector2.zero, Quaternion.identity) as GameObject;
             clone.transform.parent = transform;
         }
