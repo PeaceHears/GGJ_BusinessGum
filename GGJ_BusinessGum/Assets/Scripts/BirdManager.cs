@@ -39,6 +39,7 @@ public class BirdManager : MonoBehaviour
         {
             Object prefab = AssetDatabase.LoadAssetAtPath(prefabPath, typeof(GameObject));
             GameObject clone = Instantiate(prefab, Vector2.zero, Quaternion.identity) as GameObject;
+            clone.transform.parent = transform;
         }
     }
 }
