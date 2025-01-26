@@ -70,15 +70,6 @@ public class BusinessGuyMovement : MonoBehaviour
         {
             isReachedToRoofTop = true;
             Walk();
-            Physics2D.IgnoreCollision(collision.gameObject.GetComponent<Collider2D>(), GetComponent<Collider2D>());
-        }
-        else if (collision.gameObject.tag == "Bird")
-        {
-            Physics2D.IgnoreCollision(collision.gameObject.GetComponent<Collider2D>(), GetComponent<Collider2D>());
-        }
-        else if (collision.gameObject.tag == "PaperPlane")
-        {
-            Physics2D.IgnoreCollision(collision.gameObject.GetComponent<Collider2D>(), GetComponent<Collider2D>());
         }
     }
 }

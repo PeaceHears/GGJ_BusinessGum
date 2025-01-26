@@ -462,7 +462,6 @@ MonoBehaviour:
   character: {fileID: 52820210}
   roofTop: {fileID: 860080108}
   animator: {fileID: 52820216}
-  bubbleGum: {fileID: 1742547485}
   horizontalSpeed: 10
   verticalSpeed: 2
 --- !u!50 &308042840
@@ -25177,11 +25176,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1399013735102485658, guid: 95aac7be6c4fca74a9093a395e1454cd, type: 3}
   m_PrefabInstance: {fileID: 1711663625}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1742547485 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5654697717624511947, guid: c84ec7e2fb297a7409fef3ee8b8b61da, type: 3}
-  m_PrefabInstance: {fileID: 5074353666463918608}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1744045475
 GameObject:
