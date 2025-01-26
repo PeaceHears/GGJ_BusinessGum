@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class BusinessGuyMovement : MonoBehaviour
 {
-    public GameObject character;
-    public GameObject roofTop;
     public Animator animator;
 
     public int horizontalSpeed = 10;
@@ -40,7 +38,7 @@ public class BusinessGuyMovement : MonoBehaviour
         else if(isDeath)
         {
             inputMovement.x = 0;
-            inputMovement.y *= verticalSpeed * -5.0f;
+            inputMovement.y *= verticalSpeed * -2.0f;
         }
         else
         {
