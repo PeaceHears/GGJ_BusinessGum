@@ -19,6 +19,7 @@ public class QuitButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
 
     public void Quit()
     {
+        image.sprite = clickedSprite;
         Application.Quit();
     }
 
