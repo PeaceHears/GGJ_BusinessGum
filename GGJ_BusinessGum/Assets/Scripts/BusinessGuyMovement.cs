@@ -8,13 +8,13 @@ public class BusinessGuyMovement : MonoBehaviour
     public GameObject roofTop;
     public Animator animator;
 
-
     public int horizontalSpeed = 10;
     public int verticalSpeed = 2;
 
     private Rigidbody2D rigidBody;
     private Vector2 inputMovement;
     private bool isReachedToRoofTop = false;
+    private bool isDeath = false;
 
     void Start()
     {
@@ -37,6 +37,11 @@ public class BusinessGuyMovement : MonoBehaviour
         {
             inputMovement.y = 0;
         }
+        else if(isDeath)
+        {
+            inputMovement.x = 0;
+            inputMovement.y *= verticalSpeed * -5.0f;
+        }
         else
         {
             inputMovement.y *= verticalSpeed;
@@ -50,7 +55,13 @@ public class BusinessGuyMovement : MonoBehaviour
     private void Walk()
     {
         transform.position = new Vector2(transform.position.x, transform.position.y + 4.0f);
-        animator.SetTrigger("isWalking");
+        animator.SetTrigger("Walk");
+    }
+
+    public void Death()
+    {
+        animator.SetTrigger("Death");
+        isDeath = true;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

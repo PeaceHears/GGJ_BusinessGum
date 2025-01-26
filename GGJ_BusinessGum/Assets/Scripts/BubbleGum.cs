@@ -5,6 +5,7 @@ using UnityEngine;
 public class BubbleGum : MonoBehaviour
 {
     public GameObject businessGuy;
+    public bool isBurst = false;
 
     private Vector2 scale;
     private float scaleFactor = 0.1f;
@@ -52,6 +53,7 @@ public class BubbleGum : MonoBehaviour
     {
         Animator animator = GetComponent<Animator>();
         animator.SetTrigger("Burst");
+        businessGuy.GetComponent<BusinessGuyMovement>().Death();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
