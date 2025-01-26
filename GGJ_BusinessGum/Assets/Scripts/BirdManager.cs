@@ -5,12 +5,21 @@ using UnityEngine;
 
 public class BirdManager : MonoBehaviour
 {
-    public int pigeonCount = 5;
-    public int seagullCount = 5;
+    public int pigeonCount = 3;
+    public int seagullCount = 3;
 
     void Start()
     {
-        CreateBirds();
+        StartCoroutine(BirdCreationTimer());
+    }
+
+    IEnumerator BirdCreationTimer()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(4);
+            CreateBirds();
+        }
     }
 
     void Update()

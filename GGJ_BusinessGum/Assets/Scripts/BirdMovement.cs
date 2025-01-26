@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class BirdMovement : MonoBehaviour
@@ -9,14 +10,16 @@ public class BirdMovement : MonoBehaviour
     private Rigidbody2D rigidBody;
     private Vector2 velocity;
     private Vector2 inputMovement;
-
+    private GameObject businessGuy;
 
     void Start()
     {
         rigidBody = GetComponent<Rigidbody2D>();
+        businessGuy = GameObject.FindWithTag("BusinessGuy");
 
         float randomNumberForXPosition = Random.Range(-5.0f, 10.0f);
-        float randomNumberForYPosition = Random.Range(5.0f, 50.0f);
+        float randomNumberForYPosition = Random.Range(businessGuy.transform.position.y + 20.0f, 
+            businessGuy.transform.position.y + 50.0f);
 
         velocity = new Vector2(flightSpeed, flightSpeed);
         inputMovement = new Vector2(1, -0.5f); //TODO: Maybe up movement too?
@@ -51,6 +54,10 @@ public class BirdMovement : MonoBehaviour
         else if(collision.gameObject.tag == "Bird")
         {
             Physics2D.IgnoreCollision(collision.gameObject.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+        }
+        else if(collision.gameObject.tag == "Ground")
+        {
+            Destroy(gameObject);
         }
     }
 }

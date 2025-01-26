@@ -10156,7 +10156,7 @@ GameObject:
   - component: {fileID: 563447025}
   m_Layer: 0
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14692,7 +14692,7 @@ GameObject:
   - component: {fileID: 1604019178}
   m_Layer: 0
   m_Name: Ground2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24717,8 +24717,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 785f545bc5d90164ca74a702540711c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pigeonCount: 5
-  seagullCount: 5
+  pigeonCount: 3
+  seagullCount: 3
 --- !u!1 &2147414110
 GameObject:
   m_ObjectHideFlags: 0
