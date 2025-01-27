@@ -1,0 +1,3541 @@
+fileFormatVersion: 2
+guid: e3474dc3d60f13245822af4a30a57111
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: End_Floor_0
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 4861
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6491ce172be4e43a0bdb6f1a2db9f4
+      internalID: -1460008486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_1
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 4861
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad1d53412f1a7047a4a50bb1c8c2599
+      internalID: 296468582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_2
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 4861
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba397ed05cfa1b14a8a6607396b36f1f
+      internalID: -746281183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_3
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 4861
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335ad2ddd301d9e4b8d58b3d8982916b
+      internalID: -854279539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_4
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 4845
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bda2ac48d82c5f4a95ca069b7c23d11
+      internalID: -163711780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_5
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 4845
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be01fd4984f0f2a4f911c9f9e2a4146b
+      internalID: 39449018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_6
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 4845
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabf686b5c7263343b59d8cba00a05b1
+      internalID: 2087237140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_7
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 4845
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17dc55560b2ae32469ac68a4d1361be2
+      internalID: 1217907886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 4845
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6c6963599e22640a6c53485253d1f8
+      internalID: -1746515263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_9
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 4845
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3dc589c88afe5418e57a0cad5297bc
+      internalID: 1800410793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_10
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 4829
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f9f2a81ab66ac49b25bc44a06f4bd4
+      internalID: -619250961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_11
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 4829
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd801adbffb802b46b77b4adc60a70b7
+      internalID: -1491633102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_12
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 4829
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae940f8e70ca3854daede037df6ee9ae
+      internalID: 147377121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_13
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 4829
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4953b2bb4225845b318f88a6256517
+      internalID: -1844539396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 4829
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e6a592981e3eb4d815b12154a046d7
+      internalID: -405255030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_15
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 4829
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05617d89146f6b948845d42d17de55c4
+      internalID: -995195680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_16
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 4813
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a18dc0cc8a68d4a9ba59be62b0639e
+      internalID: 1577610814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_17
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 4813
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f92c6cbe78dc74488ed859139a221bc
+      internalID: -381302088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_18
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 4813
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b294b9ae08e934c479aa5eaca3c70378
+      internalID: 2091287262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_19
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 4813
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b4d51a92d5f5343bb5a6439faf63f8
+      internalID: 2013959129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_20
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 4813
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6a7005b99e42c4f96b55ef8b771dc6
+      internalID: -1746808591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_21
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 4813
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6bfdef73862fb4392094abb899b98e
+      internalID: 832591115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_22
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 4813
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838cbb3b59d49444cb3f61cb303af310
+      internalID: 743669842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_23
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 4813
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297bd655f18f68a4e905b40b8377a806
+      internalID: -1547229285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_24
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 4813
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2752a1ebce62145a642d73c822c963
+      internalID: 1269437733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_25
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 4813
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e084debdb8dd19d4a81492b6d2e24d56
+      internalID: 813186650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_26
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 4813
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a564cceb13abcd141ac019dabe9ea481
+      internalID: 706627781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_27
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 4813
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68cbe5b23d571514b95e77bc467019ed
+      internalID: 2131514782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_28
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 4797
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1827633ed22f81d45ab9a637a376cabf
+      internalID: 1010069243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_29
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 4797
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab5b9984bbc97c42b4d124cd4b6df2d
+      internalID: -1940516062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_30
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 4797
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1790b49f92cc4fa46816ee2b834fa04c
+      internalID: -1886854238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_31
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 4797
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0a1c277c053e5419a8b3caff25d3dd
+      internalID: 430178133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_32
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 4797
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34597d70056e6b849884a8b0e7fc9304
+      internalID: -1264913372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_33
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 4797
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d17f5ed2826a94438806b50f902f328
+      internalID: 1872222139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_34
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 4797
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7473b6d26d52d244099049be69f13d75
+      internalID: 604849203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_35
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 4797
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3eec96e204e93408679e5bf490f97e
+      internalID: 1015195942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_36
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 4797
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4b52b18bee1854b81aad154c9a23b5
+      internalID: -277067810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_37
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 4797
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2b7d5bfb8b2444982ae4068b7d70df
+      internalID: 1134951776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_38
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 4797
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf1e7e3528aa55489a6a0629a30f332
+      internalID: -739232437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_39
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 4797
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a07499f2013ab347b229374a29fcbb9
+      internalID: 1219636806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_40
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 4781
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a424b300fcb9e46adaeff0ec0807bf
+      internalID: -2106032496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_41
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 4781
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a57fccbebcd254fa1797dba1b80b4c
+      internalID: -1631337195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_42
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 4781
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4781c795f6bd645866b5912b71c256
+      internalID: 236185833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_43
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 4781
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14374d12ac2dcd84d97b59ca29a95aef
+      internalID: 538652188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_44
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 4781
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70476f5f5b81ce4a9189fb5521c8567
+      internalID: -1066390121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_45
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 4781
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454e7bda447a96e4083777c86cc9ec32
+      internalID: 2015223878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_46
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 4781
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6df5434adcabd4c903f8e2040e510d
+      internalID: 1798405448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_47
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 4781
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd84bacc0c7f75c42971351bf412e85b
+      internalID: 1828611033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_48
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 4781
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a707b2a49b84fe744b538e24d28e9178
+      internalID: -1043764142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_49
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 4781
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9202c1c94a4c25d4cbb8cab4b9004a15
+      internalID: -794619562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_50
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 4781
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa622a4cf4d71e429b3bf0e4f0fd577
+      internalID: -2000600141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_51
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 4781
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b6628dd8ea05a448353bf2fc337c0e
+      internalID: -1156309577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_52
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 4765
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc5f40b8dd10ae4b8b8881a3f1325a3
+      internalID: -445406215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_53
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 4765
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8dc53aec01bb942a7d8b974bdc0d39
+      internalID: 2065119428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_54
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 4765
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbda008b06feff144bcd58aeb29b724d
+      internalID: 1725575052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_55
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 4765
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0200554a0882768408a183a6b5d3dbfc
+      internalID: -458813189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_56
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 4765
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c4c81df3dde0c44a3c66d6f75bb924
+      internalID: -927578613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_57
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 4765
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce6ee539d571b54498f68d06c083c6d
+      internalID: -258069328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_58
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 4765
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7996f99706b9c44a1a4c981e62c69d
+      internalID: 1210450350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_59
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 4765
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253439bb26bd7a04da46ab9c36346bb1
+      internalID: 50282658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_60
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 4765
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e268b979db6d273449aefc986fc42e32
+      internalID: 800499401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_61
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 4749
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eedda3873633014eb529d6c334e9beb
+      internalID: 1933809221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_62
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 4749
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0904ce77831db6f47b3a106fc2205bd4
+      internalID: -1514427041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_63
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 4749
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a91c2052f6f76c4dad1bd47413c3eee
+      internalID: 804746201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_64
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 4749
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96d8788a93bddd4e83af0163f84fb65
+      internalID: 1250616652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_65
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 4749
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51530e9ea6ab40547bb4f50bccdb47ad
+      internalID: -570836956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_66
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 4749
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe17d7c7764394a4d8594568ef249ff2
+      internalID: -1263347621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_67
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 4749
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc6af812f4994a44a18c56dae2f208e
+      internalID: -1135256950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_68
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 4749
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5c420b4385a964280d08d9902c8046
+      internalID: -932240129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_69
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 4749
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4818ea13c502764da4ea9914f596161
+      internalID: -1199037356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_70
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 4733
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1afbd43dd621a4ea4e02e576fa95c2
+      internalID: 1495629402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_71
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 4733
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c93b1e7058af2c4f8f528b33e4c9813
+      internalID: -2021388003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_72
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 4733
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c768de961d6de646a9a166eab84fc0e
+      internalID: -1155032839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_73
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 4733
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779339496de4b6f4e80eb9972911b633
+      internalID: -200800423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_74
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 4733
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7be26208fe39db4e9e06d8abb36ea79
+      internalID: -1471127814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_75
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 4733
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e9bebf5c5204546bf156cb32e6b490
+      internalID: 350929210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_76
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 4733
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193b4b56b3295d047a323b3ae71e84c6
+      internalID: 1718459019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_77
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 4733
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437fafb6212eb894c840bda8ef747331
+      internalID: -142666508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_78
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 4733
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d80a7d156ced443ab320776585196b
+      internalID: 2089306705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_79
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 4717
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a2e6afa11bbf9499d0357155d00d5d
+      internalID: 1826251794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_80
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 4717
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc164aff407bd9d4ba081a1974978ba2
+      internalID: 1661199443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_81
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 4717
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2900ba0251a3bb3498ac16dab8e18b0b
+      internalID: 91858361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_82
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 4717
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa92a6b484abcb488ee006c1e20ac21
+      internalID: -552777192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_83
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 4717
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a7ce7ce3f619e4bb332ec4dee97594
+      internalID: -1434259601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_84
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 4717
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f1bdac050d25344af2032e4a93ad2b
+      internalID: 684647051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_85
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 4717
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423199cb71d6bc04694b90f013dab6dd
+      internalID: 603328396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_86
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 4717
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab620eeb6b9f2746b39bc4b409aba71
+      internalID: 1657120682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_87
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 4717
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4d47ae50dfc7c48803fadb9df90162
+      internalID: 2055193724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_88
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 4701
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192f4e5efe5139b4f923fd6e4b17eb3f
+      internalID: -1479419099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_89
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 4701
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bdbe7427b59c66468f42f69f3c91967
+      internalID: 618967505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_90
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 4701
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a70dad5c0d51745a33db110e5fb265
+      internalID: 1878954221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_91
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 4701
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c43906278338e49971b050a3fcff2d
+      internalID: 681184046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_92
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 4701
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9783949bfb18c414a8a968879607199a
+      internalID: -503888239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_93
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 4701
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d575723665dcb64da1c649474ad3e54
+      internalID: 847757111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_94
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 4701
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e950e71d187d04cb00fa836b1326d8
+      internalID: -1814862250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_95
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 4701
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea38420c38f6c243b8cf3fc2b7ac79d
+      internalID: -683251612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_96
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 4701
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53618f67090fd14c959dec2d0bec261
+      internalID: -1587700070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_97
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 4685
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90fd0f2adc5a2dc4db5238bad15c9137
+      internalID: -1296063556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_98
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 4685
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1facc7d0cee8aa942809e1943212f9c9
+      internalID: -1406280912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_99
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 4685
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b3eab00c810dd4486e49cc59ee2ca4
+      internalID: -519559838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_100
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 4685
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d28aa62f23ba04a8e576bf191a8c9e
+      internalID: 411030897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_101
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 4685
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8026a92ea4c61674497758b6b35c42a3
+      internalID: -885001875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_102
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 4685
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de4b1bb9cda3e241a718d1c2cdda613
+      internalID: -938941654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_103
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 4685
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb67af156e1c8e246b077c9a85356ffa
+      internalID: 1553707558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_104
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 4685
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3261bb3e1e38a41ae7fb7cf1508c4c
+      internalID: -192323973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_105
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 4685
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8600bd4b0ac6db4b985f86d91c30910
+      internalID: -2190743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_106
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 4669
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22fa534298a2a534a888c4fa65048b4e
+      internalID: 576918319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_107
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 4669
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4edad2d65cbac04586e84a88aacc614
+      internalID: 1083011350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_108
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 4669
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9589230a34e0ab0488a8f7b9759c1f92
+      internalID: 730081817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_109
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 4669
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3850db6f974e420448b0dff5b9157056
+      internalID: 1658732993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_110
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 4669
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcdcfe345ee29454dac8952a5070d735
+      internalID: 1812647672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_111
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 4669
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17dc45399dbf334c9edbf11e448607b
+      internalID: -990579975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_112
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 4669
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5942926d131be444e821b53a0dbb33c2
+      internalID: 758206342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_113
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 4669
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320c3bde5a18655499e304ce43cad0f5
+      internalID: -1863030989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_114
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 4669
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1d94c05ea2ff542a04a42fe36724df
+      internalID: -147300488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_115
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 4669
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca0efc19eb79c04697352a57234a849
+      internalID: 610985923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_116
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 4669
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90388d79fc3811499ad380c73084541
+      internalID: -737954977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_117
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 4669
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885751414a3276b49bd9be05c08fd71a
+      internalID: -1342096211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_118
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 4669
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06a041fe2360e44c89e72cbb67228e7
+      internalID: -1618002267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_119
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 4669
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2b3569afd038a40a3f7cda064268fd
+      internalID: -1986021748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_120
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 4669
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0d588d0e6f0904c846524e72869049
+      internalID: 1326886791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_121
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 4669
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255580246fcfd9146a69812e51ed7fd9
+      internalID: -1365709033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_122
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 4653
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c847c5350dfd5b3459bc1526c45933ad
+      internalID: 582682105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_123
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 4653
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 517887d327b973b4ea8834211b5c738f
+      internalID: 2087349156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_124
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 4653
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7013a996c0669684f8dc6b14fd6c6bd6
+      internalID: 126560843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_125
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 4653
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8cbe802ed9883409c691002c900baa
+      internalID: 2086161336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_126
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 4653
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add0d4eee1d6eaf49b518f12bad5ac63
+      internalID: 1026672586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_127
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 4653
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d07da82b435644489b8c2e7c5d831e9
+      internalID: -585931453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_128
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 4653
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb1822c57f45074e8e94b419555bbec
+      internalID: 1714614984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_129
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 4653
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74eebc49ad7af2242aa0b7286981dbce
+      internalID: -883584459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_130
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 4653
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7203f6eba1d92654f971409a442f1521
+      internalID: -720578290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_131
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 4653
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41db21b7cf2f57643b96d03f3fd35942
+      internalID: 987974748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_132
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 4653
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8492d6a303f617d468ac84619c097b98
+      internalID: 325099759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_133
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 4653
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698f763ae20dc8a4db125859c4e6f194
+      internalID: 1691707941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_134
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 4653
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9962c8f9442cdbd4f9342a2c82c9e2ed
+      internalID: 1147060418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_135
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 4653
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02fad0bb8a061d44866edd8da0b20e6
+      internalID: 1878933777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_136
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 4653
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae96550eed6e2b3438c32238ae10e421
+      internalID: -1035984343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_137
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 4653
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b3e71274d753e488ca2b20e9928a3b
+      internalID: -2129470437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_138
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 4637
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6593a6c03b8a6243ab3e9f712a3884c
+      internalID: 1853485871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_139
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 4637
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82efef02fb1fa0f4ea076b755ec4faaf
+      internalID: -2125183932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_140
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 4637
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc99023660c8d84aab6a7d28238dc1d
+      internalID: 1593172440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_141
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 4637
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14328f05fc283e04481333ba6c0564ac
+      internalID: -4171072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_142
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 4637
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd19ef3747a0b0c42a0e8f954ff9f3b3
+      internalID: -1925890063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_143
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 4637
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42abcc2e426674e4987edbdd42874c9a
+      internalID: -991422783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_144
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 4637
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c62c238aea5ab4387b5e99e4f3a6de
+      internalID: 1326893442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_145
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 4637
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332727f8a749b0c41a60d0e74fb3823d
+      internalID: -1149668484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_146
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 4637
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4914726fd82e3248ab7308864c82792
+      internalID: -1585440802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_147
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 4637
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da7e9b3d0b5bf54092ac9ba99c8f9b4
+      internalID: -29465868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_148
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 4637
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359ee7b083fb8384b99f0e7734845493
+      internalID: -1425613253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_149
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 4637
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b623d4852e426429620ff4dd21f950
+      internalID: 429961019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_150
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 4637
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853c5c8366c41be43b2e83daae183744
+      internalID: -1830388517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_151
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 4637
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7c4f33ea37276429b2d79e25d7c50f
+      internalID: 198752973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_152
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 4637
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363932ae59c873b4dbff74d8fe4d5559
+      internalID: -1373681148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: End_Floor_153
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 4637
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3422ce3cfde20fc4b8bbabaa551a6104
+      internalID: 711826402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      End_Floor_0: -1460008486
+      End_Floor_1: 296468582
+      End_Floor_10: -619250961
+      End_Floor_100: 411030897
+      End_Floor_101: -885001875
+      End_Floor_102: -938941654
+      End_Floor_103: 1553707558
+      End_Floor_104: -192323973
+      End_Floor_105: -2190743
+      End_Floor_106: 576918319
+      End_Floor_107: 1083011350
+      End_Floor_108: 730081817
+      End_Floor_109: 1658732993
+      End_Floor_11: -1491633102
+      End_Floor_110: 1812647672
+      End_Floor_111: -990579975
+      End_Floor_112: 758206342
+      End_Floor_113: -1863030989
+      End_Floor_114: -147300488
+      End_Floor_115: 610985923
+      End_Floor_116: -737954977
+      End_Floor_117: -1342096211
+      End_Floor_118: -1618002267
+      End_Floor_119: -1986021748
+      End_Floor_12: 147377121
+      End_Floor_120: 1326886791
+      End_Floor_121: -1365709033
+      End_Floor_122: 582682105
+      End_Floor_123: 2087349156
+      End_Floor_124: 126560843
+      End_Floor_125: 2086161336
+      End_Floor_126: 1026672586
+      End_Floor_127: -585931453
+      End_Floor_128: 1714614984
+      End_Floor_129: -883584459
+      End_Floor_13: -1844539396
+      End_Floor_130: -720578290
+      End_Floor_131: 987974748
+      End_Floor_132: 325099759
+      End_Floor_133: 1691707941
+      End_Floor_134: 1147060418
+      End_Floor_135: 1878933777
+      End_Floor_136: -1035984343
+      End_Floor_137: -2129470437
+      End_Floor_138: 1853485871
+      End_Floor_139: -2125183932
+      End_Floor_14: -405255030
+      End_Floor_140: 1593172440
+      End_Floor_141: -4171072
+      End_Floor_142: -1925890063
+      End_Floor_143: -991422783
+      End_Floor_144: 1326893442
+      End_Floor_145: -1149668484
+      End_Floor_146: -1585440802
+      End_Floor_147: -29465868
+      End_Floor_148: -1425613253
+      End_Floor_149: 429961019
+      End_Floor_15: -995195680
+      End_Floor_150: -1830388517
+      End_Floor_151: 198752973
+      End_Floor_152: -1373681148
+      End_Floor_153: 711826402
+      End_Floor_16: 1577610814
+      End_Floor_17: -381302088
+      End_Floor_18: 2091287262
+      End_Floor_19: 2013959129
+      End_Floor_2: -746281183
+      End_Floor_20: -1746808591
+      End_Floor_21: 832591115
+      End_Floor_22: 743669842
+      End_Floor_23: -1547229285
+      End_Floor_24: 1269437733
+      End_Floor_25: 813186650
+      End_Floor_26: 706627781
+      End_Floor_27: 2131514782
+      End_Floor_28: 1010069243
+      End_Floor_29: -1940516062
+      End_Floor_3: -854279539
+      End_Floor_30: -1886854238
+      End_Floor_31: 430178133
+      End_Floor_32: -1264913372
+      End_Floor_33: 1872222139
+      End_Floor_34: 604849203
+      End_Floor_35: 1015195942
+      End_Floor_36: -277067810
+      End_Floor_37: 1134951776
+      End_Floor_38: -739232437
+      End_Floor_39: 1219636806
+      End_Floor_4: -163711780
+      End_Floor_40: -2106032496
+      End_Floor_41: -1631337195
+      End_Floor_42: 236185833
+      End_Floor_43: 538652188
+      End_Floor_44: -1066390121
+      End_Floor_45: 2015223878
+      End_Floor_46: 1798405448
+      End_Floor_47: 1828611033
+      End_Floor_48: -1043764142
+      End_Floor_49: -794619562
+      End_Floor_5: 39449018
+      End_Floor_50: -2000600141
+      End_Floor_51: -1156309577
+      End_Floor_52: -445406215
+      End_Floor_53: 2065119428
+      End_Floor_54: 1725575052
+      End_Floor_55: -458813189
+      End_Floor_56: -927578613
+      End_Floor_57: -258069328
+      End_Floor_58: 1210450350
+      End_Floor_59: 50282658
+      End_Floor_6: 2087237140
+      End_Floor_60: 800499401
+      End_Floor_61: 1933809221
+      End_Floor_62: -1514427041
+      End_Floor_63: 804746201
+      End_Floor_64: 1250616652
+      End_Floor_65: -570836956
+      End_Floor_66: -1263347621
+      End_Floor_67: -1135256950
+      End_Floor_68: -932240129
+      End_Floor_69: -1199037356
+      End_Floor_7: 1217907886
+      End_Floor_70: 1495629402
+      End_Floor_71: -2021388003
+      End_Floor_72: -1155032839
+      End_Floor_73: -200800423
+      End_Floor_74: -1471127814
+      End_Floor_75: 350929210
+      End_Floor_76: 1718459019
+      End_Floor_77: -142666508
+      End_Floor_78: 2089306705
+      End_Floor_79: 1826251794
+      End_Floor_8: -1746515263
+      End_Floor_80: 1661199443
+      End_Floor_81: 91858361
+      End_Floor_82: -552777192
+      End_Floor_83: -1434259601
+      End_Floor_84: 684647051
+      End_Floor_85: 603328396
+      End_Floor_86: 1657120682
+      End_Floor_87: 2055193724
+      End_Floor_88: -1479419099
+      End_Floor_89: 618967505
+      End_Floor_9: 1800410793
+      End_Floor_90: 1878954221
+      End_Floor_91: 681184046
+      End_Floor_92: -503888239
+      End_Floor_93: 847757111
+      End_Floor_94: -1814862250
+      End_Floor_95: -683251612
+      End_Floor_96: -1587700070
+      End_Floor_97: -1296063556
+      End_Floor_98: -1406280912
+      End_Floor_99: -519559838
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

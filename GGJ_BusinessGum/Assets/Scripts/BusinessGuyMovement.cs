@@ -53,9 +53,9 @@ public class BusinessGuyMovement : MonoBehaviour
         rigidBody.MovePosition(newPosition);
     }
 
-    private void Walk(float yPositionFactor)
+    private void Walk()
     {
-        transform.position = new Vector2(transform.position.x, transform.position.y + yPositionFactor);
+        transform.position = new Vector2(10.0f, 250.0f);
         animator.SetTrigger("Walk");
         StartCoroutine(LoadScene(2, "WinScene"));
     }
@@ -84,7 +84,7 @@ public class BusinessGuyMovement : MonoBehaviour
         if (collision.gameObject.tag == "RoofTop")
         {
             isReachedToRoofTop = true;
-            Walk(4.0f);
+            Walk();
         }
     }
 
@@ -92,6 +92,6 @@ public class BusinessGuyMovement : MonoBehaviour
     {
         isReachedToRoofTop = true;
         isBubbleGumReachedToRoofTop = true;
-        Walk(8.0f);
+        Walk();
     }
 }
