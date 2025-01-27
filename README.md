@@ -12,17 +12,17 @@ But he isn’t giving up just yet. Armed with his secret weapon, a pack of extra
 Can his bubble-blowing skills save his career? Or will he pop under pressure?
 
 HOW TO PLAY?:
-W -> Inflate the bubblegum
-S -> Deflate the bubblegum
-A -> Move left
+W -> Inflate the bubblegum,
+S -> Deflate the bubblegum,
+A -> Move left,
 D -> Move right
 
 HOW TO WIN?:
 Reach to the top of the right skyscraper and touch to the rooftop with the bubblegum.
 
 Jammers: 
-_niamh
-Velvet_Wyrm
-Redkitt3n14
-lydianimate
+_niamh,
+Velvet_Wyrm,
+Redkitt3n14,
+lydianimate,
 FurkanBarisDuyar
