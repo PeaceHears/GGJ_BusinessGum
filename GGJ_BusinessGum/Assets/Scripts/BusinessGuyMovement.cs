@@ -57,7 +57,7 @@ public class BusinessGuyMovement : MonoBehaviour
     {
         transform.position = new Vector2(10.0f, 250.0f);
         animator.SetTrigger("Walk");
-        StartCoroutine(LoadScene(2, "WinScene"));
+        StartCoroutine(LoadScene(1.5f, "WinScene"));
     }
 
     public void Death()
@@ -65,10 +65,10 @@ public class BusinessGuyMovement : MonoBehaviour
         animator.SetTrigger("Death");
         isDeath = true;
 
-        StartCoroutine(LoadScene(1, "GameOverScene"));
+        StartCoroutine(LoadScene(1.0f, "GameOverScene"));
     }
 
-    IEnumerator LoadScene(int interval, string sceneName)
+    IEnumerator LoadScene(float interval, string sceneName)
     {
         yield return new WaitForSeconds(interval);
         SceneManager.LoadScene(sceneName);
@@ -98,7 +98,7 @@ public class BusinessGuyMovement : MonoBehaviour
 
     IEnumerator WalkAfterBubbleGumBurst()
     {
-        yield return new WaitForSeconds(0.7f);
+        yield return new WaitForSeconds(0.6f);
         Walk();
     }
 }
