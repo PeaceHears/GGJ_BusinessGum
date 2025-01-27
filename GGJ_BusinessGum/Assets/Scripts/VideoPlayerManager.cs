@@ -16,6 +16,6 @@ public class VideoPlayerManager : MonoBehaviour
 
     void OnVideoEnd(VideoPlayer vp)
     {
-        SceneManager.LoadScene("MainMenuScene");
+        SceneManager.LoadScene("GameplayScene");
     }
 }
