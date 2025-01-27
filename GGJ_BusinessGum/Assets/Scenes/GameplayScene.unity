@@ -45472,7 +45472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dee32fc5cc4facc4bb4ecbc05bd295a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedY: 2
+  speedY: 3
   spawnCount: 2
   repositionBuffer: 0.5
   imageType: 0
@@ -90938,7 +90938,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dee32fc5cc4facc4bb4ecbc05bd295a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedY: 3
+  speedY: 2.5
   spawnCount: 2
   repositionBuffer: 0.5
   imageType: 0
