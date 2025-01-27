@@ -92,6 +92,13 @@ public class BusinessGuyMovement : MonoBehaviour
     {
         isReachedToRoofTop = true;
         isBubbleGumReachedToRoofTop = true;
+
+        StartCoroutine(WalkAfterBubbleGumBurst());
+    }
+
+    IEnumerator WalkAfterBubbleGumBurst()
+    {
+        yield return new WaitForSeconds(0.7f);
         Walk();
     }
 }
