@@ -23,6 +23,7 @@ public class PlayButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
     {
         image.sprite = clickedSprite;
         SceneManager.LoadScene("CutScene");
+        //SceneManager.LoadScene("GameplayScene");
     }
 
     public void OnPointerEnter(PointerEventData eventData)

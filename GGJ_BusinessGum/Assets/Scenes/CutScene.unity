@@ -179,7 +179,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 8400000, guid: c66daafa26763a84ab44ab3ce1a2e9b8, type: 2}
+  m_Texture: {fileID: 8400000, guid: 5487e46873113a241a41851363cdbcbc, type: 2}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -326,13 +326,13 @@ VideoPlayer:
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
-  m_TargetTexture: {fileID: 8400000, guid: c66daafa26763a84ab44ab3ce1a2e9b8, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: 5487e46873113a241a41851363cdbcbc, type: 2}
   m_TimeReference: 0
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 2
   m_AspectRatio: 2
-  m_DataSource: 0
+  m_DataSource: 1
   m_TimeUpdateMode: 2
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
@@ -344,10 +344,10 @@ VideoPlayer:
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_SkipOnDrop: 1
-  m_Looping: 0
-  m_WaitForFirstFrame: 1
+  m_Looping: 1
+  m_WaitForFirstFrame: 0
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
 --- !u!4 &893718935
@@ -377,6 +377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c340e5726c11bae448873ead53174319, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  videoFileName: Cutscene_shot1.mp4
 --- !u!1 &1723049395
 GameObject:
   m_ObjectHideFlags: 0
@@ -552,6 +553,6 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1980714111}
+  - {fileID: 893718935}
   - {fileID: 880728916}
   - {fileID: 1723049398}
-  - {fileID: 893718935}
